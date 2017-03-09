@@ -5,11 +5,11 @@
 </head>
 <body>
 <div>
-    <a href="/registration">Регистрация</a>
+    <a href="/registration.jsp">Регистрация</a>
     <style>
         table {
             width: 300px; /* Ширина таблицы */
-            border: 5px solid green; /* Рамка вокруг таблицы */
+            border: 5px solid #5c4980; /* Рамка вокруг таблицы */
             margin: auto; /* Выравниваем таблицу по центру окна  */
         }
         td {
@@ -18,7 +18,7 @@
     </style>
     <table>
         <tr>
-            <td for="login">Логин:</td>
+            <td for="/login">Логин:</td>
             <td><input type="text" name="login" id="login" value="" placeholder="Input"><td/>
             <td for="password">Пароль:</td>
             <td><input type="password" name="password" id="password" value="" placeholder="Input"></td>

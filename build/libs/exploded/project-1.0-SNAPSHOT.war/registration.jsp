@@ -13,7 +13,7 @@
 </head>
 
 <body><H1>REGISTRATION</H1>
-<form action="/registration.jsp" method="post">
+<form action="/registration" method="post">
     <style>
         table {
             width: 300px; /* Ширина таблицы */
